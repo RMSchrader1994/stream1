@@ -1,0 +1,73 @@
+
+		body {
+		    width: 960px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    background-color: cyan;
+		}
+		h1 {
+			padding-top: 20px;
+		}
+		.box {
+			background-color: green;
+			color: red;
+		}
+
+		.saleImage {
+            position: absolute;
+            top: 0px;
+            right: 1px;
+            
+		}
+		.arrowImage {
+		    position: absolute;
+		    bottom: 0px;
+		    width: 45px;
+		    height: 45px;
+		}
+		.container1 {
+		    background-color: gold;
+		    width:470px;
+		    display: inline-block;
+		    border: 5px solid gold;
+		    margin-right: 5px;
+		    margin-bottom: 20px;
+		    box-sizing: border-box;
+		    padding: 30px;
+		    position: relative;
+		}
+		.container2 {
+		    background-color: gold;
+		    padding: 30px;
+		    width: 470px;
+		    display: inline-block;
+		    border: 5px solid gold;
+		    margin-left: 5px;
+		    margin-bottom: 20px;
+		    margin-top: 20px;
+		    box-sizing: border-box;
+		    position: relative;
+		}
+
+		#header {
+			text-align: center;
+			width: 960px;
+			height: 100px;
+		}
+
+		#footer {
+			position: fixed;
+			text-align: center;
+			width: 960px;
+			font-size: 16px;
+			bottom: 0px;
+			margin-top: 10px;
+			padding: 15px;
+			
+		}
+		#LinkToTop {
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+		}
+		
