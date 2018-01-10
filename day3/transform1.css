@@ -1,0 +1,163 @@
+body {
+    background-color: thistle;
+    width: 200px;
+    height: 200px;
+}
+/* first flower*/
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+    transform: rotate(60deg); 
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    transform: rotate(30deg); 
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.flower1{
+    transform: rotate(3600deg);
+    transition: transform 10s;
+}
+/* second flower*/
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transform: rotate(60deg); 
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.box5 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.box6 {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    transform: rotate(30deg); 
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.flower2{
+    transform: rotate(3600deg);
+    transition: transform 10s;
+}
+/* third flower*/
+.box7 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    transform: rotate(60deg); 
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.box8 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.box9 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    transform: rotate(30deg); 
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.flower3{
+    transform: rotate(3600deg);
+    transition: transform 10s;
+}
+/* fourth flower*/
+.box10 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transform: rotate(60deg); 
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+.box11 {
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    position: absolute;
+     bottom: 20px;
+    left: 90px;
+    
+}
+.box12 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transform: rotate(30deg); 
+    position: absolute;
+     bottom: 20px;
+    left: 90px;
+}
+.flower4{
+    transform: rotate(3600deg);
+    transition: transform 10s;
+}
+/* fifth flower*/
+.box13 {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    transform: rotate(60deg); 
+    position: absolute;
+    bottom: 20px;
+    left: 390px;
+}
+.box14 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+     bottom: 20px;
+    left: 390px;
+    
+}
+.box15 {
+    height: 100px;
+    width: 100px;
+    background-color: MediumVioletRed ;
+    transform: rotate(30deg); 
+    position: absolute;
+     bottom: 20px;
+    left: 390px;
+}
+.flower5{
+    transform: rotate(3600deg);
+    transition: transform 10s;
+}
+

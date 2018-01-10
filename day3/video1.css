@@ -1,0 +1,22 @@
+video {
+    height: 600px;
+    width: 600px;
+    -webkit-filter: saturate(.5) grayscale(.5);
+    position: static;
+}
+body {
+    background-image: url(img_2/shutterstock_157857116.jpg);
+    background-size: contain;
+    height: 1000px;
+    width: 1000px;
+}
+.audio1 {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+}
+.audio2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

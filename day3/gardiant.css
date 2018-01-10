@@ -1,0 +1,41 @@
+.div1 {
+    height: 100px;
+    background: linear-gradient(to right, #F0C27B, #4B1248);
+    
+}
+.div2 {
+    height: 100px;
+    background: radial-gradient(#5f2c82, #3498db);
+}
+.div3 {
+    height: 100px;
+    background: radial-gradient(blue, #4B1248);
+}
+.div4 {
+    height: 100px;
+    background: radial-gradient(blue, cyan);
+}
+.div5 {
+    height: 100px;
+    background: linear-gradient(blue 20%, cyan);
+}
+.div6 {
+    height: 100px;
+    background: linear-gradient(red, white, green);
+}
+.div7 {
+    height: 100px;
+    background: radial-gradient(purple 5%, red 10%, blue 50%);
+}
+.div8 {
+    height: 100px;
+    background: linear-gradient(orange, green, purple, blue);
+}
+.div9 {
+    height: 100px;
+    background: linear-gradient(pink 30%, green)
+}
+.div10 {
+    height: 100px;
+    background: radial-gradient(orange, cyan);
+}

@@ -1,0 +1,82 @@
+#container {
+    width: 960px;
+    height: 960px;
+    background-color: thistle;
+    position: relative;
+}
+.cover1{
+    height: 960px;
+    width: 500px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+.cover2{
+    height: 500px;
+    width: 960px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 250px;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    animation: something 4s infinite;
+}
+@keyframes something{
+    0% {
+        bottom: 0px;
+        right: 0px;
+        background-color: green;
+    }
+15% {
+        bottom: 480px;
+        right: 0px;
+        background-color: maroon;
+        transform: scale(2);
+    }
+30% {
+        top: 0px;
+        right: 0px;
+        background-color: maroon;
+    }
+45% {
+        top: 0px;
+        left: 480px;
+        background-color: gold;
+        transform: scale(1);
+    }
+60% {
+        top: 0px;
+        left: 0px;
+        background-color: gold;
+}
+75% {
+        bottom: 480px;
+        left: 0px;
+        background-color: white;
+    }
+90% {
+        bottom: 0px;
+        left: 0px;
+        background-color: white;
+}
+95% {
+        bottom: 0px;
+        left: 480px;
+        background-color: green;
+        
+}
+100% {
+        bottom: 0px;
+        right: 0px;
+        background-color: green;
+}
+}
