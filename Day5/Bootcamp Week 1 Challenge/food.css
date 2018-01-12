@@ -1,0 +1,61 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+header {
+        background-image: url(images/spices.jpg);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color: goldenrod;
+    font-size: 100px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em black;
+}
+.box {
+			/*margin:10px;*/ /*pushing our element out of bounds*/
+			margin-bottom: 10px;
+			border-radius: 10px;
+			font-size: 20px;  /* important to declare font-size here, otherwise will be 0*/
+			text-align: center;
+			padding: 5px;
+}
+content {
+            display: flex;
+            background-image: url(images/back.jpg);
+            background-size: cover;
+            padding: 10px;
+            color: black;
+            border: 10px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            margin-top: 50px;
+}
+
+p {
+            font-size: 20px; 
+            width: auto;
+            background-color: rgba(255,255,255,.9);
+            border-radius: 30px;
+            margin-left: 15px;
+            padding: 15px;
+            font-family: 'Alegreya', serif;
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        width: auto;
+        height: 500px;
+    }
+    content {
+        width: auto;
+        height: 500px;
+    }
+}
+
+	

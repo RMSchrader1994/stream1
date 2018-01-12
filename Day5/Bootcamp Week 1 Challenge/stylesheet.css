@@ -1,0 +1,133 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+video {
+           margin: 15px;
+		    padding: 10px;
+}
+/*header*/
+header {
+        background-image: url(images/spices.jpg);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color: goldenrod;
+    font-size: 100px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em black;
+}
+h1:hover {
+    background-color: rgba(255,255,255,.5);
+}
+/*nav bar*/
+nav ul {
+            text-align: center;
+}
+        
+nav ul li {
+            font-size: 30px;
+            border-bottom: 1px solid gray;
+            padding: 20px 15px;
+            background-color: gold;
+            list-style: none;
+            margin-right: 10%;
+            
+               
+}
+        
+nav ul li:hover {
+            background-color: #555;
+            transition: background-color .3s ease;
+}
+        
+nav ul li:active {
+            background-color: white;
+}
+        
+nav ul li a{
+            display: block;
+            text-decoration: none;
+            font-family: macondo, cursive;
+            color: #fff;
+}
+        
+li:last-child {
+            border-bottom: none;
+}
+
+        
+#container {
+			display: flex;
+			align-items: center;
+			margin-right:auto; /*center container with margins left & right set to auto*/
+			margin-left:auto;
+			width: 100%;	/*to center an element it must have a fixed width*/
+			border-radius: 10px;
+			padding: 10px;
+			font-size: 0; /* font-size:0 removes problem spaceing issue for inline-block*/
+}
+		
+		
+#sidebar{
+			box-sizing: border-box;
+			width: 35%;
+			margin: 25px;
+			position: relative;
+			background-color: maroon;
+}
+		
+#content{
+			box-sizing: border-box;
+			margin: 15px;
+			background-color: maroon;
+			
+}
+#img2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+}
+.img {
+    filter: brightness(1) opacity(.2);
+    background-color: rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+.img:hover {
+    filter: brightness(1.5) opacity(1);
+    background-color: rgba(188,145,45,1);
+    
+}
+.box {
+			/*margin:10px;*/ /*pushing our element out of bounds*/
+			margin-bottom: 10px;
+			border-radius: 10px;
+			font-size: 20px;  /* important to declare font-size here, otherwise will be 0*/
+			text-align: center;
+			padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+#container {
+        flex-direction: column;
+}
+		
+		
+#sidebar{
+        flex-direction: column;
+}
+		
+#content{
+		flex-direction: column;	
+}
+#img2 {
+        flex-direction: column;
+}
+}
+			
+	

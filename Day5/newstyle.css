@@ -1,0 +1,112 @@
+body{
+			background-color: #F5D76E;
+		}
+		nav{
+			font-family: roboto;
+			margin: 30px auto;
+			width: 100%;
+			display: flex; /*set as a flex container*/
+			flex-direction: column; /*mobile first approach*/
+			align-items:stretch;
+			border-radius: 10px;
+			list-style-type: none; /*Remove Bullets*/
+			padding: 0;	
+		}
+				
+		a{
+			text-decoration: none; /*removes bullets*/
+			color:#fff;
+			flex:1;		/*equal width to links*/
+			height: 30px;
+			font-family: Dosis;
+			padding:20px;
+			text-align: center;
+			font-size: 40px;
+			border-bottom:1px solid white;
+
+		}
+		#logoNav{
+			font-size: 40px;
+			font-weight: bold;
+			}
+		/* ------------------Landing------------------------*/
+		header{
+			display: flex; /*set as a flex container*/
+			flex-direction:column; /*mobile first approach*/
+			justify-content:center;/* for the crox axis alignment*/
+			align-items:center; /* for the main axis alignment*/
+
+		}
+		#landing-message{
+			text-align: center;
+			font-family: Dosis;
+			font-size: 50px;
+			margin:50px 20px;
+
+		}
+		img{
+
+		}
+		/* ------------------Cards------------------------*/
+		.cards{
+			display: flex; /* create flex conatiner*/
+			flex-direction:column;/*for mobile navigation*/
+			justify-content:space-around;/*spacing for cards*/
+		}
+		figure{
+			flex:1;/*set as equal width*/
+			margin-top: 50px;
+			margin:50px 20px;
+			background-color: #eee;
+			padding: 20px;
+		}
+		h2{
+			font-family: dosis;
+			font-size: 30px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+		figure{
+			width:100%;
+		}
+		figcaption{
+			font-family: dosis;
+			font-size: 22px;
+		}
+
+		/* ------------------Desktop------------------------*/
+
+		
+
+		@media screen and (min-width: 700px){
+								/* Navigation */
+			nav{
+				width: 90%;
+				flex-flow: row;/* across screen for dexktop screen size*/
+				align-items:baseline;
+				
+			}
+			a{
+				font-size: 25px;
+				border:none;
+
+			}
+			#logoNav{
+				flex:6;
+				text-align: left;
+			}
+
+						/* Landing */
+			header{
+
+				flex-direction:row;/* across screen for dexktop screen size*/
+				width:80%;
+				margin: 100px auto;
+
+			}	
+			.cards{
+				flex-wrap:nowrap;/* sets cards to appear side by side for desktop*/
+				flex-direction:row;/*sets flex direction*/
+			}	
+			
+		}
