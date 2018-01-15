@@ -1,0 +1,120 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+header {
+        background-image: url(images/spices.jpg);
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color: goldenrod;
+    font-size: 100px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em black;
+}
+.box {
+			/*margin:10px;*/ /*pushing our element out of bounds*/
+			margin-bottom: 10px;
+			border-radius: 10px;
+			font-size: 20px;  /* important to declare font-size here, otherwise will be 0*/
+			text-align: center;
+			padding: 5px;
+}
+content {
+            display: flex;
+            background-image: url(images/back.jpg);
+            background-size: cover;
+            padding: 10px;
+            color: black;
+            border: 10px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            margin-top: 50px;
+}
+
+p {
+            font-size: 20px; 
+            width: auto;
+            background-color: rgba(255,255,255,.9);
+            border-radius: 30px;
+            margin-left: 15px;
+            padding: 15px;
+            font-family: 'Alegreya', serif;
+}
+body{
+         font-family: 'Roboto', sans-serif;
+      }
+         #container{
+            width: 550px;
+            margin: auto;
+
+         }
+
+         legend{
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #999;
+            padding: 4px 15px;
+         }
+            
+         label.field{
+            display: block;
+            text-align: right;
+            width: 100px;
+            float: left;
+            clear: both;
+         }
+         label.field1{
+            display: block;
+            box-sizing: border-box;
+            text-align: right;
+            width: 100px;
+            float: left;
+            margin-top: 50px
+         }
+         input{
+            width: 200px;
+            border-radius: 5px;
+            padding: 6px 8px;
+         }
+         .field{
+            padding: 6px 8px;
+         }
+
+         #party{
+             width: 220px;
+             border-radius: 5px;
+             padding: 6px 8px;
+         }
+
+         fieldset{
+            width: 450px;
+            border: 1px solid #999;
+            border-radius: 20px;
+            clear: both;
+            padding: 20px;
+            margin-bottom: 100px;
+            background-color:rgba(129, 187, 201,.2);
+
+         }
+         .submit{
+            margin: 20px; 
+         }
+@media screen and (max-width: 400px) {
+    img {
+        width: auto;
+        height: 500px;
+    }
+    content {
+        width: auto;
+        height: 500px;
+    }
+}
+
+	
